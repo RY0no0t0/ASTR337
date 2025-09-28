@@ -1,0 +1,59 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2025-09-24T02:11:31 [V7.5.2]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2025-09-24T02:11:31	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-oc.form=dec&-out.max=unlimited&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-source=J/AJ/151/7/table7&-order=I&-out=Plate&-out=MJD&-out=Fiber&-out=Vmag&-out=V-I&-out=(g-r)0&-out=RAJ2000&-out=DEJ2000&-out=E(B-V)&-out=RV&-out=SimbadName&	  Full request URL (POST)
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=7.5.2	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_51510007
+#Name: J/AJ/151/7
+#Title: Globular and open clusters observed by SDSS/SEGUE (Morrison+, 2016)
+#INFO	ivoid=ivo://cds.vizier/j/aj/151/7	    IVOID of underlying data collection
+#INFO	creator=Morrison H.L.	    First author or institution
+#INFO	cites=bibcode:2016AJ....151....7M	    Article or Data origin sources
+#INFO	editor=Astronomical Journal (AAS)	    Editor name (article)
+#INFO	original_date=2016	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/151/7	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.51510007	    Dataset identifier that can be used for citation
+#INFO	publication_date=2018-09-27	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_AJ_151_7_table7:
+#Name: J/AJ/151/7/table7
+#Title: NGC 7789 Members Observed by SEGUE
+#Column	Plate	(I4)	[2377/2377] SDSS plate number	[ucd=meta.id;instr.plate]
+#Column	MJD	(I5)	[53991/53991] Modified Julian Date of SDSS exposure	[ucd=time.epoch]
+#Column	Fiber	(I3)	[151/515] SDSS fiber identifier	[ucd=meta.id]
+#Column	Vmag	(F6.3)	[11.986/13.26] V-band magnitude (1)	[ucd=phot.mag;em.opt.V]
+#Column	V-I	(F6.3)	[1.284/1.617] V-I color index (1)	[ucd=phot.color;em.opt.V;em.opt.I]
+#Column	(g-r)0	(F6.3)	[0.73/1.109] (g-r)_0_ color index (2)	[ucd=phot.color;em.opt.B;em.opt.R]
+#Column	RAJ2000	(F8.4)	Right Ascension in decimal degrees (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(F8.4)	Declination in decimal degrees (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	E(B-V)	(F5.2)	[0.24/0.27] Reddening value from Bartasiute & Tautvaisiene (2004Ap&SS.294..225B)	[ucd=phot.color.excess]
+#Column	RV	(F5.1)	[-50.7/-44.4] SEGUE radial velocity	[ucd=phys.veloc;pos.heliocentric]
+#Column	SimbadName	(a23)	Simbad column added by the CDS	[ucd=meta.id]
+Plate;MJD;Fiber;Vmag;V-I;(g-r)0;RAJ2000;DEJ2000;E(B-V);RV;SimbadName
+# ; ; ;mag;mag;mag;deg;deg; ;km/s;
+#----;-----;---;------;------;------;--------;--------;-----;-----;-----------------------
+2377;53991;151;12.794; 1.336; 0.820;359.5293;+56.6800; 0.25;-49.1;NGC 7789 1107
+2377;53991;162;12.839; 1.284; 0.765;359.3542;+56.6434; 0.25;-46.7;NGC 7789 676
+2377;53991;175;12.913; 1.288; 0.730;359.3507;+56.6600; 0.27;-50.6;Cl* NGC 7789 G 207
+2377;53991;176;13.055; 1.306; 0.800;359.3866;+56.6721; 0.25;-48.0;NGC 7789 778
+2377;53991;178;12.962; 1.331; 0.795;359.3378;+56.5841; 0.24;-47.6;NGC 7789 626
+2377;53991;191;12.981; 1.310; 0.763;359.2386;+56.6153; 0.25;-44.4;NGC 7789 348
+2377;53991;200;12.273; 1.539; 1.012;359.2176;+56.5608; 0.25;-44.6;NGC 7789 301
+2377;53991;232;12.188; 1.528; 1.048;358.9569;+56.6550; 0.25;-48.1;2MASS J23554966+5639180
+2377;53991;439;13.260; 1.316; 0.794;359.1707;+56.6964; 0.25;-46.8;NGC 7789 212
+2377;53991;461;12.305; 1.540; 1.016;359.2311;+56.7525; 0.27;-46.2;NGC 7789 329
+2377;53991;489;12.982; 1.344; 0.824;359.2382;+56.6971; 0.25;-50.7;NGC 7789 347
+2377;53991;493;13.111; 1.328; 0.823;359.2648;+56.7225; 0.25;-47.5;NGC 7789 416
+2377;53991;494;13.160; 1.349; 0.829;359.1855;+56.7149; 0.25;-47.6;NGC 7789 244
+2377;53991;506;11.986; 1.617; 1.109;359.5007;+56.8368; 0.26;-47.1;2MASS J23580015+5650125
+2377;53991;515;13.164; 1.377; 0.844;359.4409;+56.8448; 0.25;-47.6;NGC 7789 902
+
